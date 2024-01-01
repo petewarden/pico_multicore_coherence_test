@@ -67,7 +67,7 @@ void multi_core_worker(void) {
 
 void test_multi_core() {
     // Allocate a zero-initialized array on the stack.
-    uint8_t* array[ARRAY_BYTE_COUNT] = {};
+    uint8_t array[ARRAY_BYTE_COUNT] = {};
 
     multicore_reset_core1();
     // Fill in the second half of the array on the second core.
