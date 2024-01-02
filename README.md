@@ -2,6 +2,8 @@
 
 Minimal repro case for a suspected memory coherence bug in the RP2040.
 
+*Update: Turned out to be a stack overflow issue, see https://forums.raspberrypi.com/viewtopic.php?t=362553*
+
 To run:
 
 ```bash
